@@ -13,7 +13,7 @@ metadata:
   labels: # 이름 붙이기
     app: web
 spec:
-  replicas: 3 # pod 1개 고정
+  replicas: 5 # pod 1개 고정
   selector:
     matchLabels:
       app: web
